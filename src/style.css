@@ -3,8 +3,6 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  color-scheme: light dark;
-  color: #7319fa;
   background-color: #242424;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,12 +14,19 @@
 body {
   margin: 0;
   display: flex;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.main {
+  display: flex;
+  gap: 4.5rem;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  text-align: center;
+  flex-direction: column;
 }
 
 p {
   font-size: 2rem;
+  margin: 0;
 }
